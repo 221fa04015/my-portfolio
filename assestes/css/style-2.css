@@ -1,0 +1,267 @@
+@media screen and (max-width:1463px) {
+  .service-info {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width:1285px) {
+  .service-info {
+    width: 300px;
+  }
+
+  .service-info h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .service-info p {
+    font-size: 0.9rem;
+    font-weight: 300;
+
+  }
+
+  .service-box {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width:1269px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-info h4 {
+    /* font-size: 1rem; */
+    font-weight: 900;
+  }
+
+  .service-info p {
+    font-size: 1.5rem;
+    font-weight: 300;
+
+  }
+
+  #p-2 p {
+    /* padding: 0px 0px 30px 30px; */
+    width: 300px;
+  }
+
+  .service-box {
+    margin-left: 10px;
+  }
+
+  #person-img-sec-2 {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width:1180px) {
+  #person-img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width:1084px) {
+  .text h1 {
+    font-size: 200;
+  }
+
+  #section-1 {
+    justify-content: space-between;
+  }
+
+  #about {
+    width: 70vw;
+    position: relative;
+    right: 0px;
+  }
+
+  #person-img-sec-2 {
+    width: 300px;
+  }
+
+  .text {
+    padding: 1px;
+  }
+
+  #section-2 {
+    justify-content: space-between;
+  }
+
+  #skills-img {
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+  }
+
+  .service-box .service-info {
+    width: 500px;
+  }
+
+
+  .service-info h4 {
+    font-size: 8rem;
+    width: 500px;
+  }
+
+  .services {
+    height: 140rem;
+  }
+
+  .service-info p {
+    font-size: 3rem;
+
+  }
+
+  .des {
+    width: 500px;
+  }
+}
+
+
+@media screen and (max-width:1024px) {
+  .services {
+    height: 130vh;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #header-con {
+    width: 100%;
+  }
+
+  #section-1 {
+    justify-content: space-between;
+    width: 124vw;
+  }
+
+  .text {
+    padding: 15px;
+  }
+
+  #person-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  #section-2 {
+    /* justify-content: space-between; */
+    width: 124vw;
+  }
+
+  #text {
+    padding: 0;
+
+  }
+
+  .text h1 {
+    font-size: 3rem;
+  }
+
+  #edu-text {
+    font-size: 1rem;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:950px) {
+  #about {
+    flex-direction: column;
+    padding-left: 250px;
+  }
+
+  .text {
+    margin-bottom: 100px;
+  }
+
+  #person-img {
+    width: 600px;
+  }
+
+  #section-2 {
+    height: 1500px;
+  }
+
+  #edu {
+    flex-direction: column;
+  }
+
+  #person-img-sec-2 {
+    width: 600px;
+  }
+
+  #text {
+    margin-top: 100px;
+  }
+
+  .services-container {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+  }
+
+  .service-box .service-info {
+    width: 500px;
+  }
+
+
+  .service-info h4 {
+    font-size: 3rem;
+    width: 500px;
+  }
+
+  .services {
+    height: 140rem;
+  }
+
+  .service-info p {
+    font-size: 2rem;
+
+  }
+
+  .des {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:750px) {
+  #section-2 {
+    margin-bottom: 0;
+  }
+
+  #section-3 {
+    background-color: #eeeeee;
+    height: 90rem;
+    align-items: start;
+    width: 870px;
+    margin-bottom: 0;
+  }
+
+  #skills {
+    flex-direction: column;
+
+  }
+
+  #skills .text {
+    padding: 0;
+  }
+
+  #skills-img {
+    margin-left: 500px;
+  }
+
+  .service-info p {
+    width: 300px;
+  }
+
+  #section-4 {
+    width: 870px;
+  }
+
+  #footer {
+    width: 870px;
+  }
+}
